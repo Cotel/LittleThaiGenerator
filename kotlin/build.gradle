@@ -1,0 +1,50 @@
+buildscript {
+    ext.kotlin_version = '1.2.41'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.junit.platform:junit-platform-gradle-plugin:1.1.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+group 'com.cotel'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'org.junit.platform.gradle.plugin'
+apply plugin: 'idea'
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+apply from: rootProject.file("gradle/generated-kotlin-sources.gradle")
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    def arrowVersion = "0.7.2"
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    compile "io.arrow-kt:arrow-core:$arrowVersion"
+    compile "io.arrow-kt:arrow-syntax:$arrowVersion"
+    compile "io.arrow-kt:arrow-typeclasses:$arrowVersion"
+    compile "io.arrow-kt:arrow-data:$arrowVersion"
+    compile "io.arrow-kt:arrow-instances-core:$arrowVersion"
+    compile "io.arrow-kt:arrow-instances-data:$arrowVersion"
+    compile "io.arrow-kt:arrow-effects:$arrowVersion"
+
+    kapt "io.arrow-kt:arrow-annotations-processor:$arrowVersion"
+
+    testCompile "io.kotlintest:kotlintest-runner-junit5:3.1.7"
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
