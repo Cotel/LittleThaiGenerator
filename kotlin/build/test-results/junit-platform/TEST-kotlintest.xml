@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="KotlinTest" tests="1" skipped="0" failures="0" errors="0" time="0.056" hostname="wifialu25-87.wi-fi.upv.es" timestamp="2018-06-28T16:19:28">
+<properties>
+<property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+<property name="file.encoding" value="US-ASCII"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="/"/>
+<property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="gopherProxySet" value="false"/>
+<property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+<property name="java.class.path" value="/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/java/test:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/kotlin/test:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/tmp/kapt3/classes/test:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/resources/test:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/java/main:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/kotlin/main:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/tmp/kapt3/classes/main:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/resources/main:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.41/5e34ca185bbea7452d704ed3537a22314a809383/kotlin-stdlib-jdk8-1.2.41.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-syntax/0.7.2/2c17e0febcea92a87c4d8f260415a7ed4a912e4/arrow-syntax-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-instances-data/0.7.2/7c879ec773d7b620620a6cc1122dd45d0263d8f7/arrow-instances-data-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-effects/0.7.2/3099c3d08dfb715b5bf7d711c75a9426ebb13dea/arrow-effects-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-data/0.7.2/afa894e751f53c28e90b074d6777782e039e6adc/arrow-data-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-instances-core/0.7.2/61d974b9825d9dfcd3a311d1372038ec2d51d422/arrow-instances-core-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-typeclasses/0.7.2/c22cfbdc8545f37f5c1dfc5c4be275731519eb5b/arrow-typeclasses-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-junit5/3.1.7/54e3d617e5428dc5e49950adf478b4f58c6357d8/kotlintest-runner-junit5-3.1.7.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.7/9ab64d83b7d7433cb7e034703c40e1ca706ae6e/kotlintest-runner-jvm-3.1.7.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.7.2/630a39d967cc5236db5b4c103a69af118a756a01/arrow-core-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.41/d0cfb3ef897c00449e5e696355db9506225fb507/kotlin-stdlib-jdk7-1.2.41.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-annotations/0.7.2/47d4cb23b627185ffd814f47f62d9ee5c0fff1cb/arrow-annotations-0.7.2.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-core/3.1.7/9f54bb645120764ce300110758243ca1216c1e8a/kotlintest-core-3.1.7.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-assertions/3.1.7/49ba54992fd7eb45427db6004af20b2aab1bf459/kotlintest-assertions-3.1.7.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.41/e4d6728a4fa55dbfb510aeea25c072c7c51d94/kotlin-reflect-1.2.41.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/7e34f009642702250bccd9e5255866f408962a05/kotlin-stdlib-1.2.41.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.2.0/ea230ba8c0b71943d4dd2bb215ca29041c89966e/junit-platform-launcher-1.2.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.2.0/35fa3529ce843ada1a10b0909ccb4a8148ee638d/junit-platform-engine-1.2.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-suite-api/1.2.0/fcc7e77c6e143e775596fb6788ce183f8f77b9e0/junit-platform-suite-api-1.2.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/io.kindedj/kindedj/1.1.0/462731347602a3f24e3f21feec50928f9a657741/kindedj-1.1.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.6.1/f6f41322f4d2b4677d0c3b59ab33e745896637de/univocity-parsers-2.6.1.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.11/23bba0ff497ec61fbca967d9b641c7681a71edb3/reflections-0.9.11.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0/dbce1d822d3dc6c61703b340cd79018518685451/junit-platform-commons-1.2.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.0/c8e2a3e3bc7f3e4bb5075306452db5290f9b117a/opentest4j-1.1.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.21.0-GA/598244f595db5c5fb713731eddbb1c91a58d959b/javassist-3.21.0-GA.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.1.0/1ea376db54ab4ec0018c5e99d414e1c7c034387/junit-platform-console-1.1.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.1.0/ba098edde4e59cacd9225e238ea3ad9c946684ab/junit-platform-launcher-1.1.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.1.0/2596bd4d909e7ea8d029272db4338075445d731b/junit-platform-engine-1.1.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.1.0/d6aa21029f9cedfb4cc8a9e9efc0bd97987205b8/junit-platform-commons-1.1.0.jar:/Users/vitcord23/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
+<property name="java.ext.dirs" value="/Users/vitcord23/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+<property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
+<property name="java.io.tmpdir" value="/var/folders/qm/n8qgxc6d3lg4mwtz9lgrdzj00000gn/T/"/>
+<property name="java.library.path" value="/Users/vitcord23/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_171-b11"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+<property name="java.version" value="1.8.0_171"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="25.171-b11"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="x86_64"/>
+<property name="os.name" value="Mac OS X"/>
+<property name="os.version" value="10.13.5"/>
+<property name="path.separator" value=":"/>
+<property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/>
+<property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path /Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/java/main:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/kotlin/main:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/resources/main:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/java/test:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/classes/kotlin/test:/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/resources/test -n ^.*Tests?$ --reports-dir /Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin/build/test-results/junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="ES"/>
+<property name="user.dir" value="/Users/vitcord23/Documents/Gits/LittleThaiGenerator/kotlin"/>
+<property name="user.home" value="/Users/vitcord23"/>
+<property name="user.language" value="es"/>
+<property name="user.name" value="vitcord23"/>
+<property name="user.timezone" value="Europe/Madrid"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="arrowPositiveMax should return always positive number between 0 and n" classname="com.cotel.littlethaigenerator.RandomTest" time="0.03">
+<system-out><![CDATA[
+unique-id: [engine:kotlintest]/[spec:RandomTest]/[test:arrowPositiveMax should return always positive number between 0 and n]
+display-name: arrowPositiveMax should return always positive number between 0 and n
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:kotlintest]
+display-name: KotlinTest
+]]></system-out>
+</testsuite>

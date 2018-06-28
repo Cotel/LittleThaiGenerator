@@ -1,7 +1,5 @@
 package com.cotel.littlethaigenerator
 
-import arrow.core.ForId
-import arrow.data.StateT
 import arrow.data.fix
 import arrow.data.run
 import arrow.instances.ForState
@@ -11,30 +9,30 @@ import io.kotlintest.specs.StringSpec
 
 class RandomTest : StringSpec({
 
-  "arrowPositiveMax should return always positive number between 0 and n" {
+  "randomPositiveUpTo should return always positive number between 0 and n" {
     val x = ForState<RNG>() extensions {
       binding {
-        val number1 = arrowPositiveMax(10).bind()
+        val number1 = randomPositiveUpTo(10).bind()
         number1.shouldBeBetween(0, 10)
-        val number2 = arrowPositiveMax(10).bind()
+        val number2 = randomPositiveUpTo(10).bind()
         number2.shouldBeBetween(0, 10)
-        val number3 = arrowPositiveMax(10).bind()
+        val number3 = randomPositiveUpTo(10).bind()
         number3.shouldBeBetween(0, 10)
-        val number4 = arrowPositiveMax(10).bind()
+        val number4 = randomPositiveUpTo(10).bind()
         number4.shouldBeBetween(0, 10)
-        val number5 = arrowPositiveMax(10).bind()
+        val number5 = randomPositiveUpTo(10).bind()
         number5.shouldBeBetween(0, 10)
-        val number6 = arrowPositiveMax(10).bind()
+        val number6 = randomPositiveUpTo(10).bind()
         number6.shouldBeBetween(0, 10)
-        val number7 = arrowPositiveMax(10).bind()
+        val number7 = randomPositiveUpTo(10).bind()
         number7.shouldBeBetween(0, 10)
-        val number8 = arrowPositiveMax(10).bind()
+        val number8 = randomPositiveUpTo(10).bind()
         number8.shouldBeBetween(0, 10)
-        val number9 = arrowPositiveMax(10).bind()
+        val number9 = randomPositiveUpTo(10).bind()
         number9.shouldBeBetween(0, 10)
-        val number10 = arrowPositiveMax(10).bind()
+        val number10 = randomPositiveUpTo(10).bind()
         number10.shouldBeBetween(0, 10)
-        val number11 = arrowPositiveMax(10).bind()
+        val number11 = randomPositiveUpTo(10).bind()
         number11.shouldBeBetween(0, 10)
         number11
       }.fix()
