@@ -21,6 +21,7 @@ LittleThaiGenerator.cabal
 *.ipr
 /out/
 kotlin/out/
+kotlin/build/
 
 ### NetBeans ###
 /nbproject/private/
