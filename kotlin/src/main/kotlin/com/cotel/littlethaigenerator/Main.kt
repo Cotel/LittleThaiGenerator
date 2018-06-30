@@ -11,7 +11,7 @@ fun main(vararg args: String) {
     val x = ForState<RNG>() extensions {
         binding {
             println("## Little Thai Generator ##")
-            val base: Base = randomBase().bind()
+            val base: Base = Base.generate().run { generate() }
             val ingredient: Ingredient = randomIngredient().bind()
             val ingredient2: Ingredient = randomIngredientExcept(ingredient).bind()
             val sauce: Sauce = randomSauce().bind()
